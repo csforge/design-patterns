@@ -21,6 +21,7 @@ a general design problem in a particular context.
 - Favor object composition over class inheritance.
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
+- Depend upon abstractions. Do not depend upon concrete classes.
 
 ##OO Patterns:##
 
@@ -38,6 +39,23 @@ a general design problem in a particular context.
 
 	Attach additional responsibilities to an object dynamically. 
 	Decorators provide a flexible alternative to subclassing for extending functionality. 
+
+- **Factory Method**
+	
+	Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+
+- **Abstract Factory**
+	
+	Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+	
+- **Singleton**
+
+	Ensure a class only has one instance, and provides a global point of access to it.
+
+- **Command**
+
+	Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.	
+	
 	
 ###SOLID Design Principles:###
 
@@ -66,6 +84,7 @@ a general design problem in a particular context.
 
 1. Head First Design Patterns, O'Reilly 
 2. Design Patterns: Elements of Reusable Object-Oriented Software, GoF 
+3. Agile Software Development, Principles, Patterns, and Practices, Robert C. Martin 
 
 ###Books:###
 
