@@ -22,6 +22,8 @@ a general design problem in a particular context.
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
 - Depend upon abstractions. Do not depend upon concrete classes.
+- Principle of Least Knowledge - talk only to your immediate friends.(*)
+- The Hollywood Principle - Don't call us, we'll call you.
 
 ##OO Patterns:##
 
@@ -54,8 +56,19 @@ a general design problem in a particular context.
 
 - **Command**
 
-	Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.	
+	Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 	
+- **Adapter**
+
+	Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+- **Facade**
+
+	Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.	
+	
+- **Template Method**
+
+	Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 	
 ###SOLID Design Principles:###
 
@@ -95,3 +108,11 @@ a general design problem in a particular context.
 ###Articles:###
 
 - [Object Oriented Design Principles](http://www.codeproject.com/Articles/567768/Object-Oriented-Design-Principles)
+
+##Notes:###
+
+	*The principle priovides some guidelines:take any object; now from any method in that object, the principle tells us that we should only invoke methods that belong to:
+* The object itself
+* Objects passed in as a parameter to the method
+* Any object the method creates or instantiates
+* Any components of the object
