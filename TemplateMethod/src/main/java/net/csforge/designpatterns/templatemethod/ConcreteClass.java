@@ -1,5 +1,7 @@
 package net.csforge.designpatterns.templatemethod;
 
+import net.csforge.designpatterns.templatemethod.AbstractClass;
+
 public class ConcreteClass extends AbstractClass {
 
 	@Override

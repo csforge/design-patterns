@@ -10,6 +10,9 @@
 	<classpathentry kind="src" path="Adapter/src/main/java"/>
 	<classpathentry kind="src" path="Facade/src/main/java"/>
 	<classpathentry kind="src" path="TemplateMethod/src/main/java"/>
+	<classpathentry kind="src" path="Iterator/src/main/java"/>
+	<classpathentry kind="src" path="Composite/src/main/java"/>
+	<classpathentry kind="src" path="State/src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>

@@ -24,6 +24,7 @@ a general design problem in a particular context.
 - Depend upon abstractions. Do not depend upon concrete classes.
 - Principle of Least Knowledge - talk only to your immediate friends.(*)
 - The Hollywood Principle - Don't call us, we'll call you.
+- Single Responsibility - A class should have only one reason to change.
 
 ##OO Patterns:##
 
@@ -70,6 +71,18 @@ a general design problem in a particular context.
 
 	Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 	
+- **Iterator**
+
+	Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+	
+- **Composite**
+
+	Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+	
+- **State**
+	
+	Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+		
 ###SOLID Design Principles:###
 
 - The Single Responsibility Principle (SRP)

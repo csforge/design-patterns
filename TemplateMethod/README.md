@@ -6,11 +6,19 @@
 ##Principles:
 
 - **The Hollywood Principle - Don't call us, we'll call you.**
+	
+	With the Hollywood Principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how.
+	In other words, the high-level components give the low-level components a "don't call us, we'll call you" treatment. 
 
 ##Related Patterns:
 
-- **Strategy**
+- **Strategy** 
+
+	Encapsulate interchangeable behaviors and use delegation to decide which behavior to use.
+
 - **Factory Method**  
+
+	Subclasses decide which concrete classes to create.
 	
 ##Examples:
 
